@@ -7,6 +7,7 @@ Github license
 The task is to build a Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. Testing is key to making code maintainable, so you’ll also write a unit test for every part of your code and ensure that it passes each test.
 ```
 
+```
 User Story
 AS A manager
 I WANT to generate a webpage that displays my team's basic info
@@ -29,6 +30,7 @@ WHEN I select the intern option
 THEN I am prompted to enter the intern’s name, ID, email, and school, and I am taken back to the menu
 WHEN I decide to finish building my team
 THEN I exit the application, and the HTML is generated
+```
 Installation
 clone repo
 
