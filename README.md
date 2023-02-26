@@ -59,3 +59,6 @@ jest*
 
 Screenshot
 <img width="1081" alt="Screen Shot 2023-02-24 at 11 42 55 AM" src="https://user-images.githubusercontent.com/113862737/221237042-694797cc-c148-41fc-8bb7-904f207b5c7e.png">
+
+Video Link
+https://drive.google.com/file/d/1q5qsUGrnHFyhdcbF6bDVzD8iukKKR5zw/view?usp=sharing
