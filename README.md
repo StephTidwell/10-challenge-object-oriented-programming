@@ -58,7 +58,8 @@ jest*
 *installation required to run app
 
 Screenshot
-<img width="1081" alt="Screen Shot 2023-02-24 at 11 42 55 AM" src="https://user-images.githubusercontent.com/113862737/221237042-694797cc-c148-41fc-8bb7-904f207b5c7e.png">
+<img width="1098" alt="Screen Shot 2023-03-08 at 2 56 54 PM" src="https://user-images.githubusercontent.com/113862737/223834650-ac3fe055-2104-47a5-a65d-74638f5fbadd.png">
+
 
 Video Link
 https://drive.google.com/file/d/1q5qsUGrnHFyhdcbF6bDVzD8iukKKR5zw/view?usp=sharing
