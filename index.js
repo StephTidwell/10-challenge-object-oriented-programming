@@ -1,14 +1,14 @@
 const path = require("path");
 
-const Manager = require("./lib/Manager");
-const Engineer = require("./lib/Engineer");
-const Intern = require("./lib/Intern");
+const Manager = require("./employee/Manager");
+const Engineer = require("./employee/Engineer");
+const Intern = require("./employee/Intern");
 
 const inquirer = require("inquirer");
 const fs = require("fs");
 
 const OUTPUT_DIR = path.resolve(__dirname, "output");
-const outputPath = path.join(OUTPUT_DIR, "team.html");
+const outputPath = path.join(OUTPUT_DIR, "output.html");
 
 const render = require("./src/generate-page-html.js");
 
@@ -46,7 +46,8 @@ const appMenu = () => {
           name: "managerEmail",
           message: "What is the team manager's email?",
           validate: (answer) => {
-            const pass = answer.match(/\S+@\S+\.\S+/);
+            var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+            const pass = answer.match(mailformat);
             if (pass) {
               return true;
             }
@@ -58,7 +59,8 @@ const appMenu = () => {
           name: "managerOfficeNumber",
           message: "What is the team manager's office number?",
           validate: (answer) => {
-            const pass = answer.match(/^[1-9]\d*$/);
+            let officeNumber = /^[1-9]\d*$/;
+            const pass = answer.match(officeNumber);
             if (pass) {
               return true;
             }
@@ -143,7 +145,8 @@ const appMenu = () => {
           name: "engineerEmail",
           message: "What is your engineer's email?",
           validate: (answer) => {
-            const pass = answer.match(/\S+@\S+\.\S+/);
+            var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+            const pass = answer.match(mailformat);
             if (pass) {
               return true;
             }
@@ -211,7 +214,8 @@ const appMenu = () => {
           name: "internEmail",
           message: "What is your intern's email?",
           validate: (answer) => {
-            const pass = answer.match(/\S+@\S+\.\S+/);
+            var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+            const pass = answer.match(mailformat);
             if (pass) {
               return true;
             }
