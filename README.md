@@ -1,14 +1,16 @@
 # 10-challenge-object-oriented-programming
-10-challenge-object-oriented-programming
-10 Object-Oriented Programming: Team Profile Generator
-Github license
+```
+## 10-challenge-object-oriented-programming
+## 10 Object-Oriented Programming: Team Profile Generator
 
-```Description
+### Github license
+
+## ```Description
 The task is to build a Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. Testing is key to making code maintainable, so you’ll also write a unit test for every part of your code and ensure that it passes each test.
 ```
 
 ```
-User Story
+## User Story
 AS A manager
 I WANT to generate a webpage that displays my team's basic info
 SO THAT I have quick access to their emails and GitHub profiles
@@ -31,7 +33,7 @@ THEN I am prompted to enter the intern’s name, ID, email, and school, and I am
 WHEN I decide to finish building my team
 THEN I exit the application, and the HTML is generated
 ```
-Installation
+## Installation
 clone repo
 
 npm init
@@ -40,7 +42,7 @@ npm install inquirer
 
 install jest (for testing)
 
-Built with
+## Built with
 HTML
 
 CSS
@@ -55,7 +57,7 @@ inquirer*
 
 jest*
 
-*installation required to run app
+## *installation required to run app
 
 Screenshot
 <img width="1098" alt="Screen Shot 2023-03-08 at 2 56 54 PM" src="https://user-images.githubusercontent.com/113862737/223834650-ac3fe055-2104-47a5-a65d-74638f5fbadd.png">
